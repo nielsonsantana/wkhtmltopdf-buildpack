@@ -2,7 +2,7 @@
 
 set -e
 
-BIN_PATH="$1/bin"
+BIN_PATH="/bin"
 TMP_PATH="$1/tmp"
 mkdir -p $BIN_PATH $TMP_PATH
 echo "Parametro $1"
